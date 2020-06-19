@@ -1,0 +1,75 @@
+Design	=>PL->Presentation Layer
+Logic	=>BL->Bussiness Layer
+DB	=>DL->Data Layer
+
+On basis of the part where all the layers are residing
+we have software architecture
+
+Single Tier/One tier architecture
+	PL	BL	DL
+	all the three layers reside on single machine
+
+	Pro's
+		Performance will be faster
+		less maintainance cost
+		no need of network
+
+	Con's
+		Storage issue
+		restricted to one user per machine
+		Storage affects performance
+		System failure	
+		no backup facility
+		
+Two Tier architecture
+	PL+BL		DL
+	client		Server architecture
+
+	Pro's
+		Multi-user oriented
+		Data Backup facility
+		High performance
+		Maintance is modular
+		Remote access
+
+	Con's
+		High maintainance cost
+		Performance is user dependant
+		in case of update,each client needs to be visited
+		or sent to the server
+
+	Fat Client	Thin server
+	PL+BL		DL
+	client		Server architecture
+
+	Thin client 	Fat Server
+	PL		BL+DL
+
+
+
+		
+Three Tier architecture
+	PL		BL		DL
+	
+	Pro's		
+		Modularity
+		OTA update
+
+	Con's
+		for each request client has to take
+		round trip from the server
+		which delays the performance and
+		provokes user to move to another platform
+
+N-tier architecture
+	PL		BL		DL
+		AJAX		Disc
+				Env
+	helps to handle		helps to connect to
+	small requests 		virtual DB
+	asynchronously		in order to keep
+	(partial page updation)	actual DB free
+
+
+
+

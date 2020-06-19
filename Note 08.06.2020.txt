@@ -1,0 +1,58 @@
+To get your request processed on server
+servlet has to go through few phases 
+these phases are referred to as Life Cycle of Servlet
+
+Web Container is the component of web server which provides
+run time environment for executing the servlets
+
+	Services of web container
+		Communication Support->helps servlets to communicate 			with web server
+		LifeCycle Management->Manages lifecycle of servlets 			and takes care of garbage collection
+		MultiThreading support 
+			achieve multitasking
+		Declarative Security
+			declare the parameters to mention the 			security params
+		JSP Support 
+			Supports the features of jsp pages and its 
+			lifecycle as well
+
+
+Whenever a servlet is requested on the server
+Corresponding Servlet class is loaded into web container
+
+
+Life Cycle of servlet
+	Conversion from .java=>.class
+	loading .class file into web container
+	creating instance of the servlet class
+	initialising the servlet instance
+	processing the request and generating the response
+	destroying the instance of the servlet
+
+		Conversion
+		Loading
+		instantiation
+		init
+		service
+		destroy
+
+
+web.xml==>Deployment Descriptor(DD)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

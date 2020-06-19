@@ -1,0 +1,31 @@
+State Maintainance=Keeping track of the user activity in current session
+
+HTTP Protocol is stateless protocol>->it does not keep track of user activity
+
+so in order to maintain state of the user we have to write code either on client or on server side
+
+Following features help us to maintain state of the user
+hidden field
+session
+cookie
+url-rewriting
+
+Hidden Field
+	data is saved in tag named as input type="hidden"
+	can be accessed on client side
+	hence can be modified very easily
+	not secure
+
+Session
+	Helps you to maintain data set on one page on all the pages 	throughout the application
+	has a method named as getSession() which accepts boolean 	value as a parameter whose default value is true which states 	that session has to be created whereas param value as false 
+	states that existing session has to be used 
+	if session is not created it throws an error/raises an 	exception	
+
+Cookie
+	Helps you save client details in form of text file on the 	browser
+	It is set on server side but is sent on client along with 	response
+	Types of Cookies
+		Temporary Cookies(Cookies with expiration time)
+		Permanant Cookies(Cookies without expiration time)
+	As cookies are set on client browser memory,it can be 	tampered very easily and hence it is not secure

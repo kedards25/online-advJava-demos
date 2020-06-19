@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.sun.org.apache.bcel.internal.generic.DCONST"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="jdk.nashorn.internal.runtime.regexp.joni.Config"/>
+<fullyQualifiedTypeName name="javax.servlet.FilterConfig"/>
+<fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+<fullyQualifiedTypeName name="javax.servlet.http.Cookie"/>
+</qualifiedTypeNameHistroy>

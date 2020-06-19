@@ -1,0 +1,22 @@
+Client Server Communication
+
+in order to communicate from client to server and vice versa
+we must follow protocols of communication
+
+FTP
+
+HTTP 
+
+TCP/IP
+
+in web application,communication take place using HTTP
+
+HTTP request accompanies request object having additional data for the request and the actual request and response object having data received from server
+
+
+
+			HTTP 
+			request
+Client<-------------------------------------->Server
+			HTTP
+			Response

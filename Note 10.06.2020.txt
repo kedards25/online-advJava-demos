@@ -1,0 +1,15 @@
+Servlets help us to run java code on server side
+Servlet class inherits HttpServlet
+We need to override two methods from HttpServlet
+	doGet-->get method of form submission
+	doPost-->post method of form submission
+
+LifeCycle of servlet
+	1.conversion of .java to .class
+	2.loading .class file in web container of server
+	3.creating instance of .class
+	4.init method to initialize the instance of the class
+	5.service method to process request and generate output
+	6.destroy method to destroy the reference of .class file
+
+url-mapping specifies the invocation of servlet when particular pattern in mentioned in url of project

@@ -1,0 +1,11 @@
+127.0.0.1 - - [05/Jun/2020:12:55:32 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [05/Jun/2020:12:55:33 +0530] "GET /HelloServletDemo/HelloServlet HTTP/1.1" 200 28
+0:0:0:0:0:0:0:1 - - [05/Jun/2020:12:57:11 +0530] "GET /HelloServletDemo/ HTTP/1.1" 404 1028
+0:0:0:0:0:0:0:1 - - [05/Jun/2020:12:57:11 +0530] "GET /favicon.ico HTTP/1.1" 404 1016
+0:0:0:0:0:0:0:1 - - [05/Jun/2020:12:58:19 +0530] "GET /HelloServletDemo/HelloServlet HTTP/1.1" 200 28
+0:0:0:0:0:0:0:1 - - [05/Jun/2020:12:58:42 +0530] "GET /HelloServletDemo/Helloservlet HTTP/1.1" 404 1052
+0:0:0:0:0:0:0:1 - - [05/Jun/2020:12:58:49 +0530] "GET /HelloServletDemo/HelloServlet HTTP/1.1" 200 28
+0:0:0:0:0:0:0:1 - - [05/Jun/2020:12:59:55 +0530] "GET /HelloServletDemo/HelloServlet HTTP/1.1" 200 28
+0:0:0:0:0:0:0:1 - - [05/Jun/2020:13:00:15 +0530] "GET /HelloServletDemo/ HTTP/1.1" 404 1028
+0:0:0:0:0:0:0:1 - - [05/Jun/2020:13:02:21 +0530] "GET /HelloServletDemo/ HTTP/1.1" 200 147
+0:0:0:0:0:0:0:1 - - [05/Jun/2020:13:02:21 +0530] "GET /favicon.ico HTTP/1.1" 404 1016
